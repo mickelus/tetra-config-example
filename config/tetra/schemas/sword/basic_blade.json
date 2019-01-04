@@ -1,0 +1,42 @@
+[
+    {
+        "__comment": "NOTE THAT THIS OVERRIDES THE DEFAULT BASIC BLADE SCHEMA, ONLY THE WHEAT BLADE WILL BE CRAFTABLE",
+        "key": "basic_blade_schema",
+        "slots": ["sword/blade"],
+        "materialSlotCount": 1,
+        "displayType": "major",
+        "outcomes": [
+            {
+                "material": {
+                    "item": "minecraft:paper"
+                },
+                "materialSlot": 0,
+                "moduleKey": "sword/basic_blade",
+                "moduleVariant": "basic_blade/paper"
+            }
+        ]
+    },
+    {
+        "__comment": "NOTE THAT THIS OVERRIDES THE DEFAULT BASIC BLADE SCHEMA, ONLY THE WHEAT BLADE WILL BE CRAFTABLE",
+        "key": "simple_wheat_schema",
+        "slots": ["sword/blade"],
+        "materialSlotCount": 1,
+        "displayType": "major",
+        "glyph": {
+            "textureLocation": "tetra:textures/gui/my-glyphs.png",
+            "textureY": 16
+        },
+        "outcomes": [
+            {
+                "material": {
+                    "item": "minecraft:wheat",
+                    "count": 2,
+                    "data": 0
+                },
+                "materialSlot": 0,
+                "moduleKey": "sword/basic_blade",
+                "moduleVariant": "simple_wheat/wheat"
+            }
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "__comment": "NOTE THAT THIS OVERRIDES THE DEFAULT BASIC BLADE MODULES, ONLY THE WHEAT BLADE VARIANT WILL EXIST",
+        "key": "basic_blade/paper",
+        "durability": 5,
+        "integrity": -1,
+        "damage": 1,
+        "attackSpeed": 0.2
+    },
+    {
+        "key": "simple_wheat/wheat",
+        "durability": 1,
+        "integrity": 0,
+        "damage": 1,
+        "attackSpeed": 0.2,
+        "glyph": {
+            "textureLocation": "tetra:textures/gui/my-glyphs.png",
+            "textureX": 0,
+            "textureY": 16,
+            "tint": "d5da45"
+        }
+    }
+]

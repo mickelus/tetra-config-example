@@ -1,0 +1,26 @@
+
+# SCHEMA NAME
+# The localization entry for the schema name is the schema key suffixed by ".name"
+simple_wheat_schema.name=Weaponized wheat
+
+# SCHEMA DESCRIPTION
+# The localization entry for the schema description is the schema key suffixed by ".description"
+simple_wheat_schema.description=We do what we can because we must.
+
+# SCHEMA MATERIAL SLOT 1 LABEL
+# Each material slot also has a localized name, the entry should be named as the schema key suffixed by ".slot1",
+# where 1 is the index of the slot (starting from 1)
+simple_wheat_schema.slot1=Put wheat here
+
+# MODULE NAMES
+# The localization entry matching the key for the module is displayed as the module name in the workbench UI
+basic_blade/paper=Paper Cutout
+simple_wheat/wheat=Spike of §ewheat
+
+# MODULE ITEM PREFIX
+# key.prefix is used for modules that can provide a prefix for the item name (optional)
+basic_blade/paper.prefix=Flimsy
+
+# MODULE ITEM NAME
+# key.name is used for modules that can provide a name for the item (optional)
+simple_wheat/wheat.name=Wheat on a stick
