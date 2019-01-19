@@ -1,9 +1,9 @@
 # Geode stone support example
 ![](../geode-demo.png)
 
-This is an example on how to configure from which blocks geodes can be looted. The example does the following:
+This is an example on how to change which blocks drop geodes. The example does the following:
  * Registers 3 new blocks from undergroundbiomes as geode variants
- * Updates the blockstate to properly render textures for the new variants
+ * Updates the geode block blockstate to properly render textures for the new variants
 
 ## File breakdown:
 The name of the resource pack `tetra-content` is not important and another name else can be used instead.
